@@ -1,0 +1,11 @@
+Server:
+To do web development, to establish a website, first thing which is needed is server. Server is like space in the internet. Like if we want to make a house we first need land. Everything is stored in server. It is from where clients can fetch the website. Server is connected to internet and client is also connected to the internet. Internet is the medium through which server connects to client. All data and every authentication is done by server, internet just transfers it. You know how we say everything is on the internet, it’s a wrong statement, everything is on servers, internet just takes it and transfers it to you.
+
+Let’s understand how all this works with help of an example:
+You are a client(user), you go on a website, say facebook. You requested facebook to internet so internet went to facebook, fetched a login page, showed you the login page and asked you to login. You gave your credentials, internet sent them to facebook, facebook checked if they are correct. If they are correct, facebook handed over a logged in page to internet where you can see all your posts and profile. This is the process but there are alot of other things too like server side coding, client side coding. What things to keep on server and what to keep on client side. We don’t want to give all our code to client that’s why there is a server side. Client can’t access/see server side code. In client side we usually send files like HTML, JS, CSS, images, videos, etc. In server side we keep data of our clients, website algorithm, etc.
+There are other server side scripting languages too like php, aspnet, java. In python there is django and flask.
+Flask is more easier to use than django. We will learn more as we go deeper.
+
+
+-> Server Side Scripting (Backend) : php, asp, java
+-> Client Side Scripting (Frontend) : html, css, javascript
