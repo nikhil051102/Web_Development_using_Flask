@@ -6,5 +6,11 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
+@app.route('/Nikhil')
+def nikhil_function():
+    return 'Welcome, Nikhil Deore'
+
+app.run(debug=True)  #This will automatically detect change and reload it.
+
 if __name__ == '__main__':
     app.run()
