@@ -1,14 +1,20 @@
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return render_template('index.html')
 
-@app.route('/Nikhil')
+@app.route('/about')
 def nikhil_function():
-    return 'Welcome, Nikhil Deore'
+    return render_template('about.html')
+
+@app.route('/nikhil')
+def nikhil_function2():
+    name = "Nikhil Deore"
+    return render_template('name.html', nikhil = name)
+
 
 app.run(debug=True)  #This will automatically detect change and reload it.
 
